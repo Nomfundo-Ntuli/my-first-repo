@@ -1,1 +1,173 @@
-Hello Github 
+hhtml lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Becoming a Web developer</title>
+  <style>
+    body {
+      font-family: 'Ariel',
+      margin: 16px margin the left;
+      padding: 0;
+      background-color:#cccccc#;
+      color:  #f18973#;
+    }
+
+    header {
+      logo="https://via.placeholder.com/100x50?text=Logo"
+      date: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    .date {
+      font-size: 14px;
+      color:#coral;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      padding: 20px;
+    }
+
+    .main-content {
+      flex: 3;
+      margin-right: 20px;
+    }
+
+    article {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .sidebar h3 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1> The Daily Times</h1>
+      <div class="date">October 7, 2025</div>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Newspaper_icon.svg/512px-Newspaper_icon.svg.png" alt="Newspaper Logo" />
+  </header>
+
+  <nav>
+    <a href="#">Politics</a>
+    <a href="#">Sports</a>
+    <a href="#">Technology</a>
+    <a href="#">Health</a>
+    <a href="#">World</a>
+  </nav>
+
+  <div class="container">
+    <div class="main-content">
+      <article>
+        <h2>Becoming a Web developer</h2>
+        <p>Web development invlolves creating and maintaining websites and appications.It can be divided into front-end (client-side) and back-end.Front-end developers work on the visual aspects of a website , while back-end developers handle the server,database,and application logic.</p>
+        <img src="https://www.4cit.group/wp-content/uploads/2022/11/Why-SaaS-makes-business-sense.jpg" alt="Climate Summit" />
+      </article>
+
+      <article>
+        <h3>Tech Giant Releases New AI Chip</h3>
+        <p>SiliconVerse unveiled its latest AI processor, promising faster computations and reduced energy consumption, signaling a leap forward for AI integration in consumer tech.</p>
+        <img src="https://images.unsplash.com/photo-1581090700227-1e8f15c882b7" alt="AI Chip" />
+      </article>
+
+      <article>
+        <h3>Web Factory</h3>
+        <p>We are team of professionals who have experienced firs-hand the evolution of the digital space in South Africa and internationally. Our core services are original website design . all aspects of website development including responsiveprogramming for mobile devices, websitre maintenance,hosting ,email marketing and social media campaigns .</p>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTiqW__I349whcYLAoaC_o0cj2RHAAJXDp3glGlqk5iO84BkSDn" alt="Web developers Celebration" />
+      </article>
+    </div>
+
+    <aside class="sidebar">
+      <h3>Upcoming events</h3>
+      <ul>
+        <li> I CODE JAVA AFRICA 2025 - Oct 10</li>
+        <li> CYBERSECURITY SUMMIT - Oct 15</li>
+        <li>PYCON AFRICA 2025- Oct 28</li>
+      </ul>
+      <h3>Weather Update</h3>
+      <p> Mostly cloudy<br> High: 26°C | Low: 16°C<br> Wind: 10 km/h NW</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>Contact us: info@webfactory.co.za | +27 21 448 9867</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter/X</a> |
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
